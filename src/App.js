@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+import { TextField,Button, } from '@mui/material';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" className="App-logo" alt="logo"/>   
         <p>
           GUILLERMO SIFUENTES MONTOYA
         </p>
+    
         <>enviar</>
         <a
           className="App-link"
@@ -18,6 +19,13 @@ function App() {
         >
           Learn React
         </a>
+        <TextField
+         variant='filled'
+         label="ingresa tu mail"/>
+         <Button href="./" variant="contained"
+         >MATERIAL</Button>
+         
+       
       </header>        
     </div>
   

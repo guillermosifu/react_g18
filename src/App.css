@@ -7,8 +7,15 @@
   pointer-events: none;
 }
 
+button{
+  width: 200px;
+  border-radius: 10px;
+  padding: 4px;
+
+}
+
 .titulo{
-  
+
   font-size: 40px;
 }
 
